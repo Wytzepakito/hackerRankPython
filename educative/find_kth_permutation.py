@@ -24,8 +24,8 @@ def find_kth_permutation(v, k, result):
 
 
 res = []
-find_kth_permutation([1, 2, 3], 6, [])
-print(res)
+#find_kth_permutation([1, 2, 3], 6, [])
+#print(res)
 
 
 res = []

@@ -15,14 +15,14 @@ def get_all_subsets(v, sets):
   To create all subsets iterate over all numbers until (K - 1) and & this value at
   each index, J, possible so if a list is length three then J = 0, 1, 2
   """
-    subsets_count = 2 ** len(v)
-    for i in range(0, subsets_count):
-      st = set([])
-      for j in range(0, len(v)):
-         if get_bit(i, j) == 1:
-            print(f"{j =}, {i =}")
-            st.add(v[j])
-      sets.append(st)
+  subsets_count = 2 ** len(v)
+  for i in range(0, subsets_count):
+    st = set([])
+    for j in range(0, len(v)):
+        if get_bit(i, j) == 1:
+          print(f"{j =}, {i =}")
+          st.add(v[j])
+    sets.append(st)
 
 
 

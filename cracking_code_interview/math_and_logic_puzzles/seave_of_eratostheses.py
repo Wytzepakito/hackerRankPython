@@ -29,7 +29,7 @@ def seave(max):
 
 
 
-bit_map = seave(1000)
+bit_map = seave(10)
 
 for i in range(len(bit_map)):
     if bit_map[i]:

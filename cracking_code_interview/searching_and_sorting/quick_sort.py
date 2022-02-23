@@ -25,7 +25,10 @@ def partition(arr, low, high):
             print(high)
             high -= 1
 
-        swap(arr, low, high)
+        if (low <= high):
+            swap(arr, low, high)
+            low += 1
+            high -= 1
 
     return low
 

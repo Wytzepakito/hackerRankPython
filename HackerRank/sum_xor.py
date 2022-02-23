@@ -32,7 +32,7 @@ def sumXor(n):
 
 
     # The number of subsets of length i of a list is, with length list K:
-    # K!/(i! * (K-1)!)
+    # K!/(i! * (K-i)!)
     # So number of lenght 1 subsets of a list of 7:
     # 7!/(1! *(7-1)!) = 7
 
